@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .nav_logo{
    height: 50;
@@ -50,9 +50,12 @@
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(222, 29, 29);
-    width: 650px;
+    width: 900px;
     height: 40px;
     border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -90,6 +93,7 @@
 .nav-country{
     display: flex;
     justify-content: space-evenly;
+    align-items:last baseline;
     width: 55px;
     height: 55px;
 }
@@ -105,9 +109,71 @@
     background-color: #0F1111;
     color: white;
     font-weight: bold;
+    font-size: 0.90rem;
 }
 #expand{
+    width: 8px;
+    height: 4px;
     border: none;
+    font-size: 0.75rem;
     background-color: #0F1111;
     color: rgb(174, 172, 172);
+    position: relative;
+    top: 2px;
+}
+
+/* Box5 */
+.nav-acc{
+    width: 140px;
+    height: 55px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-accwrite{
+    width: 112px;
+    height: 50px;
+}
+span{
+    font-size: 0.85rem;
+}
+#sec-ac{
+    font-weight: bold;
+    font-size: 0.90rem;
+}
+
+/* Box6 */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* Panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel-all i{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.panel-all{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 96%;
+    font-size: 0.9rem;
 }
