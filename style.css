@@ -216,9 +216,9 @@ span{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .box2-img{
-    background-image: url("box2_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 350px;
@@ -258,4 +258,32 @@ span{
     color: #0F1111;
     font-size: 0.85rem;
     margin-top: 0px;
+}
+
+/* Sign-up */
+.sign-up{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;
+    height: 130px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.sign-up button{
+    background-color: rgb(252, 211, 8);
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.sign-up p{
+    font-size: 11px;
+}
+.sign-up a{
+    color: #2162A1;
 }
