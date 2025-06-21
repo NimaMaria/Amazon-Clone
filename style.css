@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 .nav_logo{
-   height: 50;
+   height: 50px;
    width: 100px;
 }
 .logo{
@@ -176,4 +176,86 @@ span{
 .panel-ops{
     width: 96%;
     font-size: 0.9rem;
+}
+
+/* HeroSection */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: #0F1111;
+    width: 1500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+.hero-msg a{
+    color: #2162A1;
+}
+
+/* ShopSection */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 206);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box2-img{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+.box-content p{
+    color: #2162A1;
+    font-size: 0.9rem;
+    margin-top: auto; 
+    margin-bottom: 10px;
+    
+}
+
+.box1-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img-item img{
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+}
+.img-item p{
+    color: #0F1111;
+    font-size: 0.85rem;
+    margin-top: 0px;
 }
