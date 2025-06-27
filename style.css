@@ -299,11 +299,17 @@ span{
     font-size: 13px;
 }
 .foot-panel2{
-    height: 350px;
-    background-color:  #222f3d;
+    background-color: #222f3d;
     color: white;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+.foot-panel2 ul {
+    list-style: none;
+    min-width: 150px;
+    margin-bottom: 20px;
 }
 ul a{
     display: block;
@@ -311,9 +317,9 @@ ul a{
     margin-top: 10px;
     color: #DDDDDD;
 }
-ul p{
+.foot-panel2 ul p {
     font-weight: bold;
-    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .foot-panel3{
