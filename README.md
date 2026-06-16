@@ -2,9 +2,8 @@
 
 A polished front-end replica of the Amazon shopping experience, built with HTML and CSS only. This project is a static page meant for learning layout and styling, with a design inspired by the Amazon storefront.
 
-```md
 ![Homepage screenshot](images/screenshot.png)
-```
+
 
 ## 🚀 Project Overview
 
