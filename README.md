@@ -1,6 +1,6 @@
 # Amazon Clone
 
-A polished front-end replica of the Amazon shopping experience, built with HTML, CSS, and JavaScript. This project demonstrates responsive layout, interactive UI components, and product listing design inspired by the Amazon storefront.
+A polished front-end replica of the Amazon shopping experience, built with HTML and CSS only. This project is a static page meant for learning layout and styling, with a design inspired by the Amazon storefront.
 
 ## 🚀 Project Overview
 
@@ -43,7 +43,8 @@ This Amazon Clone is designed as a landing page style web app that showcases:
 ## 💡 Notes
 
 - Customize the product cards, images, and colors to make the store your own.
-- Add interactive JavaScript features like cart behavior or search filtering for extra functionality.
+- Keep this project as a clean HTML/CSS learning exercise.
+- In the future, you can add JavaScript to enable a cart, search, or interactive product details.
 
 ## ✨ Next Improvements
 
