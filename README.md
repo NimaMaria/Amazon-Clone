@@ -19,7 +19,8 @@ This Amazon Clone is designed as a landing page style web app that showcases:
 
 ## 🎥 Demo
 
-> assets/Demo_video.mp4
+[Watch the project demo](assets/Demo_video.mp4)
+
 
 ## 🛠️ Built With
 
