@@ -2,6 +2,8 @@
 
 A polished front-end replica of the Amazon shopping experience, built with HTML and CSS only. This project is a static page meant for learning layout and styling, with a design inspired by the Amazon storefront.
 
+![alt text](<Screenshot 2026-06-16 235806-1.png>)
+
 ## 🚀 Project Overview
 
 This Amazon Clone is designed as a landing page style web app that showcases:
@@ -17,9 +19,6 @@ This Amazon Clone is designed as a landing page style web app that showcases:
 - Styled header and search bar area
 - Footer section for site links and info
 
-## 🎥 Demo
-
-[Watch the project demo](assets/Demo_video.mp4)
 
 
 ## 🛠️ Built With
